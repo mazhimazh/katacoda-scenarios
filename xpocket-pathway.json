@@ -11,6 +11,11 @@
       "course_id": "jstackx",
       "title": "XPocket插件JStack_X基础教程",
       "description": "XPocket插件JStack_X基础教程"
+    },
+    {
+      "course_id": "jconsole",
+      "title": "XPocket插件jconsole基础教程",
+      "description": "XPocket插件jconsole基础教程"
     }
   ]
 }
