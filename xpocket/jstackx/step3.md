@@ -7,4 +7,6 @@
 
 4.使用`lock -d -m`{{execute}} 检测死锁线程，其中的-d表示列出所有死锁的线程，-m表示显示尽量全面的信息。 根据列出的信息可知，模拟程序中发现了一个死锁。
 
+5.使用`dump`{{execute}} 导出内存堆文件，这样就可以通过PerfMa的Xsheepdog（https://console.heapdump.cn/）导入堆文件进行分析了。
+
 
