@@ -17,8 +17,6 @@ derby.log
 */*.iml
 *.iml
 *.class
-*.zip
-*.gz
 *.so
 *.dylib
 *.so.1.1
