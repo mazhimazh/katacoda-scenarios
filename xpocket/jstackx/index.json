@@ -1,8 +1,8 @@
 {
-  "title": "场景标题",
-  "description": "场景描述",
+  "title": "XPocket插件JStack_X基础教程",
+  "description": "XPocket插件JStack_X基础教程",
   "difficulty": "Beginner",
-  "time": "3",
+  "time": "5",
   "details": {
     "steps": [
       {
@@ -16,6 +16,22 @@
       {
         "title": "Step 3",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7",
+        "text": "step7.md"
       }
     ],
     "intro": {
