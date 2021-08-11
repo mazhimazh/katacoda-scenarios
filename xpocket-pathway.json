@@ -6,6 +6,11 @@
       "course_id": "xpocket-use",
       "title": "XPocket入门教程",
       "description": "初级教程"
+    },
+    {
+      "course_id": "testsc",
+      "title": "场景标题",
+      "description": "场景描述"
     }
   ]
 }
