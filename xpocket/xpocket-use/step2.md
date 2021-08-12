@@ -1,5 +1,5 @@
 
-1.下载XPpocket
+1.下载XPocket
 `wget https://a.perfma.net/xpocket/download/XPocket.tar.gz`{{execute}}
 
 2.解压
