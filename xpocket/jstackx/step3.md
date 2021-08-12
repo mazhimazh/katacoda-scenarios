@@ -3,10 +3,12 @@
 
 2.使用`help`{{execute}} 获取jstack_x的详细使用帮助。  
 
-3.使用`jps|grep demo.simulators.boot.ThreadSimulatorMain|split|attach`{{execute}} attach到simulator模拟程序
+3.使用`jps|grep demo.simulators.boot.ThreadSimulatorMain|split|attach`{{execute}} attach到simulator模拟程序。
 
-4.使用`lock -d -m`{{execute}} 检测死锁线程，其中的-d表示列出所有死锁的线程，-m表示显示尽量全面的信息。 根据列出的信息可知，模拟程序中发现了一个死锁。
+4.运行`autocheck`{{execute}} 命令，这个命令会自动检测死锁、锁竞争激烈、线程数不断上涨等情况。运行后可看到，系统检测出了有死锁情况时会提示“Found dead locks,use "lock -d" to look more details”。
 
-5.使用`dump`{{execute}} 导出内存堆文件，这样就可以通过PerfMa的Xsheepdog（https://console.heapdump.cn/）导入堆文件进行分析了。
+4.使用`lock -d -m`{{execute}} 继续查看死锁线程的详细信息，其中的-d表示列出所有死锁的线程，-m表示显示尽量全面的信息。
+
+
 
 
