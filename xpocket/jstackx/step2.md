@@ -1,5 +1,5 @@
 
-1.下载XPpocket
+1.下载XPocket
 `wget https://github.com/mazhimazh/katacoda-scenarios/blob/master/XPocket.tar.gz`{{execute}}
 
 2.解压
