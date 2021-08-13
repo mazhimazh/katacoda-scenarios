@@ -3,7 +3,7 @@
 
 2.使用`help`{{execute}} 获取jstack_x的详细使用帮助。  
 
-3.使用`jps|grep demo.simulators.boot.ThreadSimulatorMain|split|attach`{{execute}} attach到simulator模拟程序。
+3.使用`jps|grep com.classloading.Bootstrap|split|attach`{{execute}} attach到simulator模拟程序。
 
 4.运行`autocheck`{{execute}} 命令，这个命令会自动检测死锁、锁竞争激烈、线程数不断上涨等情况。
 
