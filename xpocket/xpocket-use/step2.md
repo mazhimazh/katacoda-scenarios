@@ -1,12 +1,12 @@
 
 1.下载XPocket
-`wget https://a.perfma.net/xpocket/download/XPocket.tar.gz`{{execute}}
+`wget https://github.com/mazhimazh/katacoda-scenarios/raw/master/xpocket.tar.gz`{{execute}}
 
 2.解压
-`tar -xvf XPocket.tar.gz`{{execute}}
+`tar -xvf xpocket.tar.gz`{{execute}}
 
 3.启动XPocket
-`sh xpocket/xpocket_jdk9+.sh`{{execute}}
+`sh xpocket/xpocket.sh`{{execute}}
 
 
 
