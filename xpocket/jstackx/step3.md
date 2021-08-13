@@ -5,10 +5,10 @@
 
 3.使用`jps|grep demo.simulators.boot.ThreadSimulatorMain|split|attach`{{execute}} attach到simulator模拟程序。
 
-4.运行`autocheck`{{execute}} 命令，这个命令会自动检测死锁、锁竞争激烈、线程数不断上涨等情况。运行后可看到，系统检测出了有死锁情况时会提示“Found dead locks,use "lock -d" to look more details”。
+4.运行`autocheck`{{execute}} 命令，这个命令会自动检测死锁、锁竞争激烈、线程数不断上涨等情况。
 
-4.使用`lock -d -m`{{execute}} 继续查看死锁线程的详细信息，其中的-d表示列出所有死锁的线程，-m表示显示尽量全面的信息。
+5.使用`lock -d -m`{{execute}} 继续查看死锁线程的详细信息，其中的-d表示列出所有死锁的线程，-m表示显示尽量全面的信息。
 
-
+6.当有锁的激烈竞争时，可使用 lock -m -f address 命令查看某个锁的具体信息。
 
 
